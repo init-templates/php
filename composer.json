@@ -24,7 +24,7 @@
     "mockery/mockery": "^1.6",
     "phpunit/phpunit": "^10.2.4",
     "phpstan/phpstan": "^1.10.18",
-    "symfony/var-dumper": "^6.3.5",
+    "symfony/var-dumper": "^6.3.5 || ^7.0.0",
     "vimeo/psalm": "^5.10.0"
   },
   "autoload": {
