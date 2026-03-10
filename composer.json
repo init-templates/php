@@ -3,7 +3,7 @@
   "description": "PHP Project Template",
   "type": "library",
   "license": "MIT",
-  "homepage": "https://github.com/php-exts/ext",
+  "homepage": "https://github.com/init-templates/php",
   "keywords": [
     "php",
     "project",
@@ -18,7 +18,7 @@
     }
   ],
   "require": {
-    "php": ">=8.2"
+    "php": ">=8.3"
   },
   "require-dev": {
     "mockery/mockery": "^1.6",

@@ -5,6 +5,8 @@
 
 *.DS_Store
 .env
+*.log
+Thumbs.db
 storage/*.key
 Homestead.yaml
 Homestead.json
@@ -39,7 +41,6 @@ Homestead.json
 /node_modules
 npm-debug.log
 yarn-error.log
-
 
 # Email spool folder
 /app/spool/*

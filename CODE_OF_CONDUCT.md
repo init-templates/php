@@ -1,1 +1,1 @@
-# CloudFlying Open Source Code of Conduct
+# Open Source Code of Conduct
