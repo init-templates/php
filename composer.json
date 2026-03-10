@@ -1,4 +1,5 @@
 {
+  "$schema": "https://getcomposer.org/schema.json",
   "name": "ext/dev-template-php",
   "description": "PHP Project Template",
   "type": "library",
@@ -33,15 +34,21 @@
     },
     "files": []
   },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
   "scripts": {
     "test": "phpunit --colors",
     "psalm": "psalm --show-info=true --no-cache",
     "psalm-fix": "psalm --no-cache --alter --issues=MissingReturnType,MissingParamType",
-	"phpstan": "vendor/bin/phpstan analyze src/ --memory-limit 512M --level 9"
+    "phpstan": "vendor/bin/phpstan analyze src/ --memory-limit 512M --level 9"
   },
   "scripts-descriptions": {
     "test": "Run all tests."
   },
+  "minimum-stability": "stable",
   "prefer-stable": true,
   "config": {
     "preferred-install": "dist",
